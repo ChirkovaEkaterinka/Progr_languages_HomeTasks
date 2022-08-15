@@ -49,7 +49,7 @@ for (int j = 0; j < numbers.GetLength(1); j++)
         sum = sum + numbers[i, j];
     }
     aversum = Math.Round(sum / numbers.GetLength(0), 1);
-    Console.Write(aversum + " ;");
+    Console.WriteLine($"Среднее значение по столбцу {j}: "+ aversum);
 }
 
 
